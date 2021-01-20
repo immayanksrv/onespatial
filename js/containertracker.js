@@ -33,7 +33,7 @@ var editIcon = function (data, type, row) {
 };
 $(document).ready(function () {
     $('#Container_table').DataTable({
-        "ajax": "/Container.txt",
+        "ajax": "../Container.txt",
         responsive: true,
         "columns": [
             { "data": "PO" },
@@ -232,7 +232,7 @@ function getTravelDuration() {
 function getAllGeofences() {
 
     $.ajax({
-        url: 'https://cognizant-location360-dev.azurewebsites.net/api/Route/GetGeoFence',
+        url: 'https://uri/api/Route/GetGeoFence',
         success: function (result) {         
             geofenceObjects=result === null ? [] :result;
             for (var x in geofenceObjects) {
@@ -265,7 +265,7 @@ function getAllGeofences() {
 function getAllMarkers() {
     var info_window = new google.maps.InfoWindow({ content: '' });
     $.ajax({
-        url: "/Container.txt",
+        url: "../Container.txt",
         success: function (result) {
             var results = JSON.parse(result);
             var container_m;
