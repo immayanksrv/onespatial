@@ -179,7 +179,7 @@ function initRoute() {
             offsetX: 0,
             offsetY: 0,
             offsetAngle: 0,
-            imageUrl: '../images/Container.png',
+            imageUrl: 'images/Container.png',
             imageWidth: 36,
             imageHeight: 58,
         },
@@ -270,7 +270,7 @@ function getAllMarkers() {
             var results = JSON.parse(result);
             var container_m;
             var image = {
-                url: '../images/ship-2.png',               
+                url: 'images/ship-2.png',               
                 size: new google.maps.Size(32, 32),             
                 origin: new google.maps.Point(0, 0),               
                 anchor: new google.maps.Point(0, 32)
