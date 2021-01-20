@@ -11,4 +11,4 @@
 # 9: Create GeoFence
 # 10: Calculate point inside GeoFence
 
-# for Demo :  IOT sensors devices data is hardcoded now.
+ for Demo :  IOT sensors devices data is hardcoded now.
