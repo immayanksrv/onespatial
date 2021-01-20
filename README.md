@@ -1,5 +1,7 @@
 # onespatial is onestop solutions for various kind of tracking solutions
+
 [live demo](https://immayanksrv.github.io/onespatial/index.html)
+
 ![alt text](https://github.com/immayanksrv/onespatial/blob/master/images/home_screen.png)
 
 # 1: Ship Tracking  using real time marine data
