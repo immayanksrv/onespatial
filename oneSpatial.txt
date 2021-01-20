@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "VIN": "VIN100",
+      "Model": "Honda",
+      "Speed": "45",
+      "Source": "36.337335,-94.224010",
+      "Destination": "36.321231,-94.256838",     
+      "MapView": "5421",
+	  "Status":"true"
+    },
+    {
+      "VIN": "VIN101",
+      "Model": "Honda",
+      "Speed": "45",
+      "Source": "36.332170,-94.148793",
+      "Destination": "36.363935,-94.195974",      
+      "MapView": "8422",
+	  "Status":"true"
+    },
+    {
+      "VIN": "VIN102",
+      "Model": "Nissan",
+      "Speed": "60",
+      "Source": "36.363935,-94.195974",
+      "Destination": "29.772939,-95.401295",     
+      "MapView": "1562"
+	  ,"Status":"true"
+    },
+    {
+      "VIN": "VIN104",
+      "Model": "Mazda",
+      "Speed": "40",
+      "Source": "28.627709,77.214343",
+      "Destination": "28.476564,77.507422",      
+      "MapView": "6224"
+	  ,"Status":"true"
+    },
+    {
+      "VIN": "VIN105",
+      "Model": "Toyota",
+      "Speed": "40",
+      "Source": "18.581336,73.723357",
+      "Destination": "18.541733,73.826197",      
+      "MapView": "5407"
+	  ,"Status":"true"
+    },
+    {
+      "VIN": "VIN106",
+      "Model": "Nissan",
+      "Speed": "50",
+      "Source": "13.040898,80.234550",
+      "Destination": "12.999349,80.267106",    
+      "MapView": "4804"
+	  ,"Status":"true"
+    },
+    {
+      "VIN": "VIN107",
+      "Model": "Honda",
+      "Speed": "65",
+      "Source": "51.515080,-0.099013",
+      "Destination": "51.556962,-0.115350",    
+      "MapView": "9608"
+	  ,"Status":"true"
+    },
+    {
+      "VIN": "VIN108",
+      "Model": "Ford",
+      "Speed": "10",
+      "Source": "53.407265,-2.990542",
+      "Destination": "53.389646,-2.589562",     
+      "MapView": "6200"
+	  ,"Status":"true"
+    }    
+  ]
+}

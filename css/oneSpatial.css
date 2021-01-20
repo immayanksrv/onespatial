@@ -1,0 +1,111 @@
+﻿#map {
+    height: 580px;
+    width: 100%;
+
+
+}
+
+.navbar-inverse {
+    background-color: #0033A0;
+    border-color: transparent;
+}
+
+    .navbar-inverse .navbar-brand {
+        color: #00b140;
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
+    }
+
+.navbar-top-links > li > a {
+    color: #fff;
+}
+
+.navbar-top-links li a {
+    font-size: 15px;
+}
+
+div.gmnoprint div:nth-child(1) {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+div.gmnoprint div:nth-child(2) {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+div.gmnoprint div:nth-child(3) {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+#origin-input,
+#destination-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+
+    #origin-input:focus,
+    #destination-input:focus {
+        border-color: #4d90fe;
+    }
+
+#mode-selector {
+    padding: 10px 10px 15px 10px;
+}
+
+    #mode-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+    }
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+#markerLayer img {
+    animation: pulse .5s infinite alternate;
+    -webkit-animation: pulse .5s infinite alternate;
+    transform-origin: center;
+    -webkit-transform-origin: center;
+}
+@keyframes pulse {
+    to
+
+{
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+}
+}
+
+
+#notification-bottom {
+    position: fixed;
+    width: 20%;
+    bottom: 0;
+    left: 1;
+    /* Rest of your styling */
+}
+
+
