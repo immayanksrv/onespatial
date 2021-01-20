@@ -33,7 +33,7 @@ var editIcon = function (data, type, row) {
 };
 $(document).ready(function () {
     $('#Container_table').DataTable({
-        "ajax": "Container.txt",
+        "ajax": "/Container.txt",
         responsive: true,
         "columns": [
             { "data": "PO" },
@@ -265,7 +265,7 @@ function getAllGeofences() {
 function getAllMarkers() {
     var info_window = new google.maps.InfoWindow({ content: '' });
     $.ajax({
-        url: "Container.txt",
+        url: "/Container.txt",
         success: function (result) {
             var results = JSON.parse(result);
             var container_m;
