@@ -162,7 +162,7 @@ function saveGeoFence() {
     geofenceObjects.push(newGeoFence);
     $.ajax({
         type: "POST",
-        url: "https://cognizant-location360-dev.azurewebsites.net/api/Route/SaveGeoFence?",
+        url: "https://uri/api/Route/SaveGeoFence?",
         data: JSON.stringify(geofenceObjects),
         contentType: "application/json; charset=utf-8",
         dataType: "json",
@@ -369,7 +369,7 @@ function showTripDetails(distance, duration, startAddress, endAddress) {
 function getAllGeofences() {
 
     $.ajax({
-        url: 'https://cognizant-location360-dev.azurewebsites.net/api/Route/GetGeoFence',
+        url: 'https://uri/api/Route/GetGeoFence',
         success: function (result) {         
             geofenceObjects=result === null ? [] :result;
             for (var x in geofenceObjects) {
