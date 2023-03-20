@@ -2,7 +2,7 @@
 var geoJSON;
 var request;
 var gettingData = false;
-var openWeatherMapKey = "eaf801c185229f31fd360562a7310a90";
+var openWeatherMapKey = "*****";
 var checkIfDataRequested = function () {
     // Stop extra requests being sent
     while (gettingData === true) {
